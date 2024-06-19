@@ -1,0 +1,28 @@
+.About {
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 20px; 
+    color: white; 
+}
+
+.About img {
+    max-width: 100%; 
+    max-height: 400px; 
+    display: block;
+    margin: 0 auto; 
+}
+
+.links {
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px; 
+}
+
+.links a {
+    color: cyan; 
+    font-weight: bold; 
+    text-decoration: none; 
+}
+
+.links a:hover {
+    text-decoration: underline; 
+}

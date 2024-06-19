@@ -1,0 +1,30 @@
+.Menu {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #516fb1; 
+    padding: 20px; 
+}
+
+.Menu a {
+    color: white; 
+    text-decoration: none; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    transition: background-color 0.3s ease; 
+}
+
+.Menu a:hover {
+    background-color: white; 
+    color: lightblue; 
+}
+
+.Menu a.active {
+    background-color: white;
+    color: lightblue; 
+    font-weight: bold; 
+}
+
+.Menu a.active::after {
+    margin-left: 5px; 
+}
